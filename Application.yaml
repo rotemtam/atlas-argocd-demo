@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
   source:
-    path: configs
+    path: manifests
     repoURL: 'https://github.com/rotemtam/atlas-argocd-demo'
     targetRevision: master
   destination:
