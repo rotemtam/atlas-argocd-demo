@@ -7,7 +7,7 @@ spec:
   source:
     path: manifests
     repoURL: 'https://github.com/rotemtam/atlas-argocd-demo'
-    targetRevision: errbranch
+    targetRevision: master
   destination:
     namespace: default
     server: 'https://kubernetes.default.svc'
