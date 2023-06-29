@@ -21,15 +21,13 @@ spec:
   selector:
     matchLabels:
       app: mysql
-  strategy:
-    type: Recreate
   template:
     metadata:
       labels:
         app: mysql
     spec:
       containers:
-      - image: mysql
+      - image: mysql:8
         name: mysql
         env:
         - name: MYSQL_ROOT_PASSWORD
